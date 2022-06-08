@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "b5iCaHmfHxddOFesT/Nns0vsI190g7YSRs/YqyBYqecqM+cY3z57BIJXDdQHz4BW9EmSd+9UiOadunfPgxt46Q==",
+  "success": true,
+  "projectFilePath": "F:\\Balta\\AspNet+Cqrs+EfCore\\Api\\Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\programacao06\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512",
+    "C:\\Users\\programacao06\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\programacao06\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\programacao06\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\programacao06\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\programacao06\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\programacao06\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

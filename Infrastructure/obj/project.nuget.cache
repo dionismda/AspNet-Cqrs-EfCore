@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zgI9y7e8TOscEZypRR3RD7mICkonkvRsDArVWr2U1yjq13VJIae+CazSWQt679AOY6jNnWJM0zRTZlKoOJf91w==",
+  "success": true,
+  "projectFilePath": "F:\\Balta\\AspNet+Cqrs+EfCore\\Infrastructure\\Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\programacao06\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

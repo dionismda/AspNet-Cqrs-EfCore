@@ -1,0 +1,12 @@
+F:\Balta\AspNet+Cqrs+EfCore\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
+F:\Balta\AspNet+Cqrs+EfCore\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
+F:\Balta\AspNet+Cqrs+EfCore\Infrastructure\bin\Debug\net6.0\ref\Infrastructure.dll
+F:\Balta\AspNet+Cqrs+EfCore\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+F:\Balta\AspNet+Cqrs+EfCore\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+F:\Balta\AspNet+Cqrs+EfCore\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\Balta\AspNet+Cqrs+EfCore\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+F:\Balta\AspNet+Cqrs+EfCore\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+F:\Balta\AspNet+Cqrs+EfCore\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+F:\Balta\AspNet+Cqrs+EfCore\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+F:\Balta\AspNet+Cqrs+EfCore\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
+F:\Balta\AspNet+Cqrs+EfCore\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
