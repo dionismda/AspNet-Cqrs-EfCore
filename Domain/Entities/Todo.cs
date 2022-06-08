@@ -1,8 +1,8 @@
 ﻿namespace Domain.Entities
 {
-    public class Task : Entity
+    public class Todo : Entity
     {
-        public Task(string title, string user, DateTime date)
+        public Todo(string title, string user, DateTime date)
         {
             Title = title;
             Done = false;
@@ -15,9 +15,14 @@
         public DateTime Date { get; private set; }
         public string User { get; private set; }
 
-        public void SetDone(bool done)
+        public void SetAsDone()
         {
-            Done = done;
+            Done = true;
+        }
+
+        public void SetAsUndone()
+        {
+            Done = false;
         }
 
         public void SetTitle(string title)

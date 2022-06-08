@@ -96,3 +96,7 @@ F:\Balta\AspNet+Cqrs+EfCore\Tests\obj\Debug\net6.0\Tests.dll
 F:\Balta\AspNet+Cqrs+EfCore\Tests\obj\Debug\net6.0\ref\Tests.dll
 F:\Balta\AspNet+Cqrs+EfCore\Tests\obj\Debug\net6.0\Tests.pdb
 F:\Balta\AspNet+Cqrs+EfCore\Tests\obj\Debug\net6.0\Tests.genruntimeconfig.cache
+F:\Balta\AspNet+Cqrs+EfCore\Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
+F:\Balta\AspNet+Cqrs+EfCore\Tests\bin\Debug\net6.0\Flunt.dll
+F:\Balta\AspNet+Cqrs+EfCore\Tests\bin\Debug\net6.0\Domain.dll
+F:\Balta\AspNet+Cqrs+EfCore\Tests\bin\Debug\net6.0\Domain.pdb
