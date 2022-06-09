@@ -20,6 +20,17 @@ namespace Domain.Commands
         public Guid Id { get; set; }
         public string User { get; set; }
 
+        public bool CommandIsValid()
+        {
+            Validate();
+            return Invalid;
+        }
+
+        public IReadOnlyCollection<Notification> GetNotifications()
+        {
+            return Notifications;
+        }
+
         public void Validate()
         {
             AddNotifications(

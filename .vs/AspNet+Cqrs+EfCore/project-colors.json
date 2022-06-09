@@ -15,7 +15,17 @@
       "ProjectGuid": "f3bd2cc9-5775-4c29-9fd8-ec0d6e6ac698",
       "DisplayName": "Domain",
       "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "77844f25-0838-4076-9f06-ae9243ff0ab1": {
+      "ProjectGuid": "77844f25-0838-4076-9f06-ae9243ff0ab1",
+      "DisplayName": "Tests",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }

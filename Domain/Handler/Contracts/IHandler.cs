@@ -2,8 +2,8 @@
 
 namespace Domain.Handler.Contracts
 {
-    public interface IHandler<T> where T : ICommand
+    public interface IHandler<TCommand> where TCommand : ICommand
     {
-        ICommandResult Handle(T command);
+        ICommandResult Handle(TCommand command);
     }
 }

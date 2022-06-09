@@ -15,14 +15,9 @@
         public DateTime Date { get; private set; }
         public string User { get; private set; }
 
-        public void SetAsDone()
+        public void SetDone(bool done)
         {
-            Done = true;
-        }
-
-        public void SetAsUndone()
-        {
-            Done = false;
+            Done = done;
         }
 
         public void SetTitle(string title)

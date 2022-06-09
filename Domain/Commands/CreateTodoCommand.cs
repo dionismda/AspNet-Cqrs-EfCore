@@ -21,6 +21,17 @@ namespace Domain.Commands
         public DateTime Date { get; private set; }
         public string User { get; private set; }
 
+        public bool CommandIsValid()
+        {
+            Validate();
+            return Invalid;
+        }
+
+        public IReadOnlyCollection<Notification> GetNotifications()
+        {
+            return Notifications;
+        }
+
         public void Validate()
         {
             AddNotifications(

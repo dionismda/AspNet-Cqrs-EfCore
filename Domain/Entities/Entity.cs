@@ -1,6 +1,8 @@
-﻿namespace Domain.Entities
+﻿using Domain.Entities.Contracts;
+
+namespace Domain.Entities
 {
-    public abstract class Entity : IEquatable<Entity>
+    public abstract class Entity : IEquatable<Entity>, IEntity
     {
         public Entity()
         {
