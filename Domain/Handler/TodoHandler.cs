@@ -1,7 +1,6 @@
 ﻿using Domain.Commands;
 using Domain.Commands.Contracts;
 using Domain.Entities;
-using Domain.Entities.Contracts;
 using Domain.Handler.Contracts;
 using Domain.Repositories;
 

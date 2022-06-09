@@ -25,3 +25,13 @@ F:\Balta\AspNet+Cqrs+EfCore\Api\obj\Debug\net6.0\Api.dll
 F:\Balta\AspNet+Cqrs+EfCore\Api\obj\Debug\net6.0\ref\Api.dll
 F:\Balta\AspNet+Cqrs+EfCore\Api\obj\Debug\net6.0\Api.pdb
 F:\Balta\AspNet+Cqrs+EfCore\Api\obj\Debug\net6.0\Api.genruntimeconfig.cache
+F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Flunt.dll
+F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Domain.dll
+F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Infrastructure.dll
+F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Domain.pdb
+F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Infrastructure.pdb

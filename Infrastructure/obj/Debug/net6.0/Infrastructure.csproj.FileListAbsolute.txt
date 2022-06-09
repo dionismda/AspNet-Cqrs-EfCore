@@ -10,3 +10,8 @@ F:\Balta\AspNet+Cqrs+EfCore\Infrastructure\obj\Debug\net6.0\Infrastructure.cspro
 F:\Balta\AspNet+Cqrs+EfCore\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
 F:\Balta\AspNet+Cqrs+EfCore\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
 F:\Balta\AspNet+Cqrs+EfCore\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+F:\Balta\AspNet+Cqrs+EfCore\Infrastructure\bin\Debug\net6.0\Infrastructure.runtimeconfig.json
+F:\Balta\AspNet+Cqrs+EfCore\Infrastructure\bin\Debug\net6.0\Domain.dll
+F:\Balta\AspNet+Cqrs+EfCore\Infrastructure\bin\Debug\net6.0\Domain.pdb
+F:\Balta\AspNet+Cqrs+EfCore\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
+F:\Balta\AspNet+Cqrs+EfCore\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache
