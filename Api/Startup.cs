@@ -3,8 +3,10 @@ using Domain.Handler;
 using Domain.Repositories;
 using Infrastructure.Contexts;
 using Infrastructure.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 namespace Api
 {
@@ -23,15 +25,26 @@ namespace Api
             //services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database")) ;
             services.AddDbContext<DataContext>(opt => 
                     opt.UseNpgsql(Configuration.GetConnectionString("ConnectionStrings"))
-            ) ;
+            );
 
             services.AddTransient<ITodoRepository<Todo>, TodoRepository>();
-            services.AddTransient<TodoHandler>();
+            services.AddTransient<TodoHandler>() ;
 
-            services.Configure<ApiBehaviorOptions>(opt =>
-            {
-                opt.SuppressModelStateInvalidFilter = true;
-            });
+            services
+                .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(opt =>
+                {
+                    opt.Authority = "https://securetoken.google.com/todo-26793";
+                    opt.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidIssuer = "https://securetoken.google.com/todo-26793",
+                        ValidateAudience = true,
+                        ValidAudience = "todo-26793",
+                        ValidateLifetime = true
+                    };
+                }
+             );
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
