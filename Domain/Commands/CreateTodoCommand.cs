@@ -16,10 +16,9 @@ namespace Domain.Commands
             Date = date;
             User = user;
         }
-
         public string Title { get; private set; }
         public DateTime Date { get; private set; }
-        public string User { get; private set; }
+        public string User { get; set; }
 
         public bool CommandIsValid()
         {

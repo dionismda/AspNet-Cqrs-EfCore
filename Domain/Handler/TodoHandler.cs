@@ -15,7 +15,7 @@ namespace Domain.Handler
 
         private readonly ITodoRepository<Todo> _todoRepository;
 
-        public TodoHandler(ITodoRepository<Todo> todoRepository) : base(todoRepository)
+        public TodoHandler(ITodoRepository<Todo> todoRepository)
         {
             _todoRepository = todoRepository;
         }
@@ -42,7 +42,8 @@ namespace Domain.Handler
                 return GetCommandErrorResult("Erro ao editar a tarefa!", command);
             }
 
-            Todo todo = (Todo)_todoRepository.GetById(command.Id, command.User);
+            Todo? todo = (Todo?)_todoRepository.GetById(command.Id, command.User);
+            EntityIsNotNull(todo, "Item para edição não encontrado", command);
 
             todo.SetTitle(command.Title);
 
@@ -58,10 +59,10 @@ namespace Domain.Handler
                 return GetCommandErrorResult("Erro ao editar a tarefa!", command);
             }
 
-            Todo todo = (Todo)_todoRepository.GetById(command.Id, command.User);
+            Todo? todo = (Todo?)_todoRepository.GetById(command.Id, command.User);
+            EntityIsNotNull(todo, "Item para edição não encontrado", command);
 
             todo.SetDone(true);
-
             _todoRepository.Update(todo);
 
             return GetCommandSuccessResult("Tarefa editada com sucesso!", todo);
@@ -74,10 +75,10 @@ namespace Domain.Handler
                 return GetCommandErrorResult("Erro ao editar a tarefa!", command);
             }
 
-            Todo todo = (Todo)_todoRepository.GetById(command.Id, command.User);
+            Todo? todo = (Todo?)_todoRepository.GetById(command.Id, command.User);
+            EntityIsNotNull(todo, "Item para edição não encontrado", command);
 
             todo.SetDone(false);
-
             _todoRepository.Update(todo);
 
             return GetCommandSuccessResult("Tarefa editada com sucesso!", todo);

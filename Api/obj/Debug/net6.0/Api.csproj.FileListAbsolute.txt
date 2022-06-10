@@ -35,3 +35,8 @@ F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Domain.dll
 F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Infrastructure.dll
 F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Domain.pdb
 F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Infrastructure.pdb
+F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Npgsql.dll
+F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Humanizer.dll
+F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Newtonsoft.Json.dll

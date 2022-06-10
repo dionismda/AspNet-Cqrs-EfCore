@@ -1,23 +1,50 @@
 ﻿using Domain.Entities;
-using Domain.Entities.Contracts;
 using Domain.Repositories;
 using System;
+using System.Collections.Generic;
 
 namespace Tests.Repositories
 {
     public class FakeTodoRepository : ITodoRepository<Todo>
     {
-        public void Create(IEntity todo)
+        public void Create(Todo entity)
         {
+            throw new NotImplementedException();
         }
 
-        public IEntity GetById(Guid id, string user)
+        public IEnumerable<Todo> GetAll(string user)
         {
-            return new Todo("Titulo tarefa", "UserTest", DateTime.Now);
+            throw new NotImplementedException();
         }
 
-        public void Update(IEntity todo)
+        public IEnumerable<Todo> GetAllDone(string user)
         {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Todo> GetAllUndone(string user)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Todo? GetById(Guid id, string user)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Todo> GetByPeriod(string user, DateTime date, bool done)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(Todo entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        Todo IRepository<Todo>.GetAll(string user)
+        {
+            throw new NotImplementedException();
         }
     }
 }

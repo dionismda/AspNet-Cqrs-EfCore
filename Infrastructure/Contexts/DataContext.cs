@@ -5,11 +5,19 @@ namespace Infrastructure.Contexts
 {
     public class DataContext : DbContext
     {
+        public DataContext(): base() { }
+
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
         }
 
         public DbSet<Todo> Todo { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder
+                .UseNpgsql("Server=host.docker.internal;Port=5432;Database=todo;User Id=postgres;Password=admin;");
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -22,7 +30,7 @@ namespace Infrastructure.Contexts
                                        .HasMaxLength(160)
                                        .HasColumnType("varchar(160)");
             modelBuilder.Entity<Todo>().Property(x => x.Done)
-                                       .HasColumnType("bit");
+                                       .HasColumnType("bool");
             modelBuilder.Entity<Todo>().Property(x => x.Date);
             modelBuilder.Entity<Todo>().HasIndex(b => b.User);
         }

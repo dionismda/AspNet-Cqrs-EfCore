@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6ARZ3eDgcbD2adRbAZOR7irZFuqUY3GdiJDziAFpM5lGVeviC695qsH6sKdbBYPJ+OiR5lejAGS2I0OjMDpWGQ==",
+  "dgSpecHash": "i4kRZZboS1X0WCu5ow2v2NPfOSCYwHJoopRUH5SeAFXgkjoG+A2BKduOHScMUjIK3wyF/ayErcwzPySOqeSWgQ==",
   "success": true,
   "projectFilePath": "F:\\Balta\\AspNet+Cqrs+EfCore\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,8 @@
     "C:\\Users\\programacao06\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\programacao06\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\programacao06\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\programacao06\\.nuget\\packages\\npgsql\\6.0.4\\npgsql.6.0.4.nupkg.sha512",
+    "C:\\Users\\programacao06\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.4\\npgsql.entityframeworkcore.postgresql.6.0.4.nupkg.sha512",
     "C:\\Users\\programacao06\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\programacao06\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\programacao06\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"

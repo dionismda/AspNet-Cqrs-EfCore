@@ -1,6 +1,8 @@
-﻿namespace Domain.Entities
+﻿using Domain.Entities.Contracts;
+
+namespace Domain.Entities
 {
-    public class Todo : Entity
+    public class Todo : Entity, IEntity
     {
         public Todo(string title, string user, DateTime date)
         {
