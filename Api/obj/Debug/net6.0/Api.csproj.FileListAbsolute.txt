@@ -40,3 +40,10 @@ F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.Post
 F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Humanizer.dll
 F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Newtonsoft.Json.dll
+F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+F:\Balta\AspNet+Cqrs+EfCore\Api\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
